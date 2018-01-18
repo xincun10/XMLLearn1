@@ -8,6 +8,15 @@
 			<sequence>
 				<element name="name" type="string"></element>
 				<element name="age" type="int"></element>
+				<element name="jiguan">
+					<complexType>
+						<sequence>
+							<element name="city" type="string"></element>
+						</sequence>
+						<attribute name="hh" type="string" use="required">
+						</attribute>
+					</complexType>
+				</element>
 			</sequence>
 		</complexType>
 	</element>
